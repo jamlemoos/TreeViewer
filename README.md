@@ -32,5 +32,8 @@ This project was developed as part of the selection process for the **Front-End 
    ```
 
 2. Development Environment:
+   ```bash
    npm run dev
    http://localhost:5173
+
+   ```
