@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+export default {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        headerBg: "#17192D",
+        buttonColor: "#023B78",
+        buttonHover: "#2188FF",
+      },
+    },
   },
   plugins: [],
 };
